@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('jenkinfile') {
       steps {
-        git(url: 'https://github.com/DuHuy/duan.github.io.git', branch: 'jenkinfile')
+        git 'https://github.com/DuHuy/duan.github.io.git'
       }
     }
 
